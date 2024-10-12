@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>\
+    <style>
+        .int{
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: rgb(230, 78, 78); height: 100vh;">
+        <h1 style="text-align: center;">Feedback form</h1>
+    <form >
+        <div style="background: rgb(237, 232, 232); border: 2px  solid black 
+        ;  margin: auto; padding: 10px;width: fit-content; height: fit-content; border-radius: 10px;   box-shadow: 5px 5px 5px rgba(244, 241, 241, 0.7); font-family:sans-serif ;">
+         <label for="feedback">Feedback Type :</label><br>
+        <input type="text" placeholder="Compliment" class="int"><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" class="int"></textarea><br>
+        <label for="rating">Website Rating</label><br>
+        
+        <input type="radio"  name="Excellent " value="5">
+        <label for="radio">Excellent</label>
+        
+        <input type="radio" name="Good" value="4">
+        <label for="radio">Good</label>
+        
+        <input type="radio" name="Averge" value="3">
+        <label for="radio">Averge</label>
+       
+        <input type="radio" name="Poor" value="2">
+        <label for="radio">Poor</label><br>
+        
+        <label for="age">Age(10-100):</label><br>
+        <input type="number"  min="10" max="100" class="int"><br>
+        <label for="email"> Email*:</label><br>
+        <input type="email" required class="int"><br>
+        <label for="password">Password(min 8 characters):</label><br>
+        <input type="password"  minlength="8"class="int"><br>
+        <label for="url">Website URL(option):</option></label><br>
+        <input type="url" class="int"><br>
+        <label for="checkbox"></label><br>
+        <input type="checkbox" required>
+        I agree to the terms and conditions
+        <br>
+        <div style="text-align: center;" >
+        <input type="submit" value="Submit" style="background-color: green; color: aliceblue;margin: auto; border-radius: 5px;text-decoration: none; ">
+       </div>
+        </div>
+</form>
+</div>
+</body>
+</html>
